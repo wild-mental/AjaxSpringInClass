@@ -22,3 +22,12 @@
     - HTTP 요청과 달리 딘일 연결을 통해 쌍방향 통신이 가능한  사용
     - 서버가 먼저 클라이언트 측에 알림 및 데이터를 보낼 수 있음
 </aside>
+
+## [활동] 북마크 Application 에 아래 내용 적용하기
+
+1. Bookmark 엔티티를 DTO로 분리 후, JPA를 활용해 DB 연동
+2. Controller -Service - Repository 의 3 티어 아키텍쳐 적용
+3. RESTful 설계를 적용해 북마크 검색(GET), 수정(PUT, PATCH), 삭제(DELETE) Endpoint 구현 및 테스트
+4. 각 엔드포인트에 대한 AJAX 호출을 수행하는 View 로직 구현
+5. Bookmark Entity에 Category 컬럼을 추가하고, BookmarkCategoryDTO 를 추가해 카테고리별로 정렬된 데이터를 반환하는 엔드포인트 구현
+6. 각 엔드포인트에 대한 AJAX 호출을 수행하는 View 로직 구현 및 bookmark.html 에 추가
